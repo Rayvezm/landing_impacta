@@ -1,0 +1,46 @@
+dialog[open] {
+  transition: transform 1s ease-in-out;
+  transform: translateY(-20vh);
+}
+@starting-style {
+  dialog[open] {
+    transform: translateY(-55vh);
+  }
+}
+
+dialog {
+  background: linear-gradient(165deg, #40005e 35%, #fd0014 100%);
+  text-align: center;
+  border: 2px solid rgb(17, 70, 204);
+  border-radius: 17px;
+  transform: translateY(-75vh);
+  transition: transform 0.7s ease-in-out, display 0.5s allow-discrete;
+  box-shadow: 0 0 10px 100vw rgba(0, 0, 0, 0.365);
+}
+
+input {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+#close {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  color: #f00;
+  font-size: 25px;
+}/*# sourceMappingURL=animations.css.map */
