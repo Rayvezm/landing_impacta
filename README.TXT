@@ -22,7 +22,7 @@ Documentación del Proyecto de Desarrollo Web
         <!-- swiper css -->
         <link
             rel="stylesheet"
-            href="./node_modules/swiper/swiper-bundle.min.css" />
+            href="./libs/swiper/swiper-bundle.min.css" />
         <!-- Título de la Página -->
         <title>Impacta</title>
     </head>
@@ -442,7 +442,7 @@ Documentación del Proyecto de Desarrollo Web
             crossorigin="anonymous"></script>
         <!-- swiper js -->
         <script type="text/javascript"
-            src="./node_modules/swiper/swiper-bundle.min.js"></script>
+            src="./libs/swiper/swiper-bundle.min.js"></script>
         <!-- aos js -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <!-- JS Nativo -->
