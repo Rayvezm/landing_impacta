@@ -288,7 +288,7 @@ body {
   z-index: 500;
   color: #fff;
   font-size: 55px;
-  background: linear-gradient(90deg, rgb(226, 0, 26) 0%, rgba(255, 255, 255, 0) 47%);
+  background: linear-gradient(90deg, #e2001a 0%, rgba(255, 255, 255, 0) 47%);
   padding: 30px;
   display: flex;
   align-items: end;
@@ -343,7 +343,7 @@ dialog {
   padding: 25px;
   background: #001c3a;
   text-align: center;
-  border: 2px solid rgb(17, 70, 204);
+  border: 2px solid #1146cc;
   border-radius: 17px;
   transform: translateY(-75vh);
   color: #fff;
