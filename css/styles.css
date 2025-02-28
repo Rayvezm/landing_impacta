@@ -422,7 +422,7 @@ dialog::after {
 
 .Section-3__H2 {
   font-size: 35px;
-  letter-spacing: 8 px;
+  letter-spacing: 8px;
 }
 
 /* Section 4*/
@@ -464,15 +464,12 @@ dialog::after {
   background-color: #e21f1f;
   background-repeat: no-repeat;
   padding: 50px;
-  height: 200px;
 }
 
 .Long-Icon {
   background-color: #e21f1f;
   background-repeat: no-repeat;
   padding: 50px;
-  width: 520px;
-  height: 200px;
 }
 
 .Article-Type-2 {
@@ -489,8 +486,9 @@ dialog::after {
 
 .parent {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-template-rows: repeat(2, 250px);
+  grid-auto-columns: 180px;
   gap: 8px;
   place-items: center;
   text-align: center;
@@ -589,7 +587,7 @@ dialog::after {
   align-content: center;
   flex-wrap: wrap;
   min-width: 220px;
-  width: 50%;
+  width: 45%;
   max-width: 570px;
   min-height: 260px;
 }
@@ -618,7 +616,7 @@ dialog::after {
 
 .Form-Set2 {
   min-width: 220px;
-  width: 50%;
+  width: 45%;
   max-width: 570px;
   display: flex;
 }
