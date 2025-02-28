@@ -20,7 +20,16 @@ document.addEventListener("DOMContentLoaded", () => {
   AOS.init();
   
   const formi = document.getElementById('Formi1');
-  formi.addEventListener("submit", () => { 
-    alert('Please enter');
+  formi.addEventListener("submit", (event) => { 
+    event.preventDefault();
+    const dialog = document.getElementById('dialogAgradecimiento');
+    dialog.showModal();
   });
+
+
+document.getElementById('cerrarDialog').addEventListener('click', function() {
+    const dialog = document.getElementById('dialogAgradecimiento');
+    dialog.close();
+    window.location.reload();
+});
 });
