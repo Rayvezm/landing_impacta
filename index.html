@@ -15,6 +15,8 @@
         <link rel="icon" href="./media/logos/Recurso_14.svg" />
         <!-- styles -->
         <link rel="stylesheet" href="./css/styles.css" />
+        <!-- aos css -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- swiper css -->
         <link
             rel="stylesheet"
@@ -129,7 +131,7 @@
             <!-- section 2 -->
             <section class="Section-2">
                 <article
-                    class="my-card my-5">
+                    class="my-card my-5" data-aos="fade-up-right">
                     <figure class="CardImage salud">
                         <span></span>
                         <img class="SaludM"
@@ -150,7 +152,7 @@
                         audiencia.
                     </p>
                 </article>
-                <article class="my-card my-5">
+                <article class="my-card my-5" data-aos="fade-up-left">
                     <figure class="CardImage sperm">
                         <span></span>
                         <img class="Esperma"
@@ -168,7 +170,7 @@
                         entrega.
                     </p>
                 </article>
-                <article class="my-card my-5">
+                <article class="my-card my-5" data-aos="fade-up-right">
                     <figure class="CardImage chincheta">
                         <span></span>
                         <img class="Chincheta"
@@ -185,7 +187,7 @@
                         tus objetivos.
                     </p>
                 </article>
-                <article class="my-card my-5">
+                <article class="my-card my-5" data-aos="fade-up-left">
                     <figure class="CardImage cerveza">
                         <span></span>
                         <img class="Cerveza"
@@ -207,7 +209,7 @@
             </section>
             <section class="Section-3">
                 <article class="Section-3__Article">
-                    <figure class="Section-3__Figure"></figure>
+                    <figure class="Section-3__Figure"  data-aos="flip-up"></figure>
                     <header class="Section-3__Header">
                         <h2 class="Section-3__H2">VENDEMOS HUMO CON MUCHA
                             PASIÓN</h2>
@@ -222,53 +224,52 @@
                     <div class="Caja1">
 
                         <div class="parent">
-                            <div class="div1 Small-Icon">
+                            <div data-aos="flip-left" class="div1 Small-Icon">
                                 <img src="./media/logos/Recurso_8.svg"
                                     alt="Al Campo">
                             </div>
-                            <div class="div2 Small-Icon">
+                            <div data-aos="flip-left" class="div2 Small-Icon">
                                 <img src="./media/logos/Recurso_7.svg"
                                     alt="Basf">
                             </div>
-
-                            <div class="div4 Small-Icon">
+                            <div data-aos="flip-left" class="div3 Long-Icon">
+                                <img src="./media/logos/Recurso_3.svg"
+                                    alt="Cajamar">
+                            </div>
+                            <div data-aos="flip-left" class="div4 Small-Icon">
                                 <img src="./media/logos/Recurso_11.svg"
                                     alt="Ferrovial">
                             </div>
 
-                            <div class="div5 Small-Icon">
+                            <div data-aos="flip-left" class="div5 Small-Icon">
                                 <img src="./media/logos/Recurso_9.svg"
                                     alt="KPMG">
                             </div>
-                            <div class="div8 Small-Icon">
-                                <img src="./media/logos/Recurso_12.svg"
-                                    alt="BMI">
-                            </div>
-                            <div class="div9 Small-Icon">
-                                <img src="./media/logos/Recurso_6.svg"
-                                    alt="Brita">
-                            </div>
-                            <div class="div3 Long-Icon">
-                                <img src="./media/logos/Recurso_3.svg"
-                                    alt="Cajamar">
-                            </div>
-                            <div class="div7 Small-Icon">
-                                <img src="./media/logos/Recurso_10.svg"
-                                    alt="Corporate Excellence">
-                            </div>
-                            <div class="div6 Long-Icon">
+                            <div data-aos="flip-left" class="div6 Long-Icon">
                                 <img src="./media/logos/Recurso_1.svg"
                                     alt="Cepsa">
                             </div>
-                            <div class="div10 Small-Icon">
+                            <div data-aos="flip-left" class="div7 Small-Icon">
+                                <img src="./media/logos/Recurso_10.svg"
+                                    alt="Corporate Excellence">
+                            </div>
+                            <div data-aos="flip-left" class="div8 Small-Icon">
+                                <img src="./media/logos/Recurso_12.svg"
+                                    alt="BMI">
+                            </div>
+                            <div data-aos="flip-left" class="div9 Small-Icon">
+                                <img src="./media/logos/Recurso_6.svg"
+                                    alt="Brita">
+                            </div>
+                            <div data-aos="flip-left" class="div10 Small-Icon">
                                 <img src="./media/logos/Recurso_5.svg"
                                     alt="Schneider">
                             </div>
-                            <div class="div11 Small-Icon">
+                            <div data-aos="flip-left" class="div11 Small-Icon">
                                 <img src="./media/logos/Recurso_2.svg"
                                     alt="Hill+Knowlton">
                             </div>
-                            <div class="div12 Small-Icon">
+                            <div data-aos="flip-left" class="div12 Small-Icon">
                                 <img src="./media/logos/Recurso_4.svg"
                                     alt="Broseta">
                             </div>
@@ -282,7 +283,8 @@
                         <fieldset class="Form-Set1">
                             <legend>
                                 <h3 class="Form-Title">
-                                    <strong>ENVIANOS TU</strong>MENSAJE</h3>
+                                    <span>ENVIANOS TU</span> MENSAJE
+                                </h3>
                             </legend>
                             <input class="Input" placeholder="Nombre"
                                 type="text" name="Nombre"
@@ -300,39 +302,133 @@
                             <textarea class="Comentarios" name="Comentarios"
                                 placeholder="Mensaje"
                                 id="Comentarios"></textarea>
+                            <p class="politicas">Sus datos serán tratados por
+                                IMPACTA para la
+                                atención de las consultas o solicitudes de
+                                información realizadas.
+                                Puede ejercer sus derechos conforme a lo
+                                dispuesto en la Política de Privacidad. <a
+                                    href>Más información aquí.</a></p>
                         </fieldset>
                         <fieldset class="Form-Set2">
                             <legend>SELECCIONA SOLO UN RESULTADO</legend>
-                            <div class="Caja2">
+                            <div class="Cajas">
+
                                 <input class="Radial" type="radio" name="deseo"
                                     id="feliz"
                                     value="Quiero ser feliz">
+                                <label class="labradio" for="feliz"
+                                    id="labfeliz">Quiero ser
+                                    feliz</label>
+
                                 <input class="Radial" type="radio" name="deseo"
                                     id="rico"
                                     value="Quiero ser rico">
+                                <label class="labradio" for="rico"
+                                    id="labrico">Quiero ser
+                                    rico</label>
+
                                 <input class="Radial" type="radio" name="deseo"
                                     id="avion"
                                     value="Quiero ser un avión">
+
+                                <label class="labradio" for="avion"
+                                    id="labavion">Quiero ser un
+                                    avión</label>
+
                                 <input class="Radial" type="radio" name="deseo"
                                     id="dormir"
                                     value="Quiero dormir todo el día">
-                                <label for="feliz">Quiero ser feliz</label>
-                                <label for="rico">Quiero ser rico</label>
-                                <label for="avion">Quiero ser un avión</label>
-                                <label for="dormir">Quiero dormir todo el
+                                <label class="labradio" for="dormir"
+                                    id="labdormir">Quiero dormir
+                                    todo el
                                     día</label>
-                            </div>
-                        </fieldset>
-                        <fieldset class="Form-Set3">
-                            <input class="Privacidad" type="checkbox"
-                                name="Privacidad" id="Privacidad">
-                            <button class="Enviar" type="submit"
-                                for="Formi1">ENVIAR MENSAJE</button>
 
+                            </div>
+                            <div class="Form-Set3">
+                                <input class="Privacidad" type="checkbox"
+                                    name="Privacidad" id="Privacidad">
+                                <label for="Privacidad" class="labcheckbox">He
+                                    leído y acepto el aviso legal y la política
+                                    de privacidad</label>
+                                <button class="Enviar" type="submit"
+                                    for="Formi1">ENVIAR MENSAJE</button>
+
+                            </div>
                         </fieldset>
                     </form>
                 </article>
             </section>
+            <aside class="publicidad pub--white">
+                <p>MÁS PUBLICIDAD! <span class="subscribe">SUBSCRÍBETE A NUESTRA
+                        NEWSLETTER</span> <a href="#" class="click"> Clic
+                        aquí</a></p>
+            </aside>
+
+            <!-- inicio del footer -->
+            <footer class="footer">
+                <div class="div-frecuentes">
+                    <h5 class="titles-footer">Contacto y Preguntas
+                        Frecuentes</h5>
+                    <ul class="div__ul">
+                        <li>+ (34) 666 666 666</li>
+                        <li>FORMULARIO DE CONTACTO</li>
+                        <li>PREGUNTAS FRECUENTES</li>
+                        <li>LIBRO DE RECLAMACIONES</li>
+                        <li>CONOCE NUESTRA MANERA DE TRABAJAR</li>
+                    </ul>
+                    <p>Pago seguro</p>
+                    <figure class="pay">
+                        <img src="./media/logos/Recurso_20.svg" alt>
+                        <img src="./media/logos/Recurso_17.svg" alt>
+                        <img src="./media/logos/Recurso_19.svg" alt>
+                        <img src="./media/logos/Recurso_18.svg" alt>
+                    </figure>
+                </div>
+                <div class="div-Nosotros">
+                    <h5 class="titles-footer">Nosotros</h5>
+                    <ul class="div__ul">
+                        <li>CATEGORÍAS</li>
+                        <li>NOVEDADES</li>
+                        <li>OFERTAS</li>
+                    </ul>
+                    <h5 class="titles-footer">Servicios</h5>
+                </div>
+                <div class="div-proyectos">
+                    <h5 class="titles-footer">Proyectos</h5>
+                    <ul class="div__ul">
+                        <li>CALIDADES</li>
+                        <li>REVISIONES</li>
+                        <li>RENOVACIÓN</li>
+                        <li>VENTAS</li>
+                    </ul>
+                </div>
+                <div class="div-contacto">
+                    <h5 class="titles-footer">Contacto</h5>
+                    <ul class="div__ul">
+                        <li>FORMULARIO DE CONTACTO</li>
+                    </ul>
+                    <h5 class="titles-footer">Redes</h5>
+                    <figure class="redes2">
+                        <a href="#">
+                            <img src="./media/logos/Recurso_15.svg" alt
+                                class="ig-footer">
+                        </a>
+                        <a href="#">
+                            <img src="./media/logos/Recurso_16.svg" alt
+                                class="fb-footer">
+                        </a>
+                    </figure>
+                    <figure class="logo">
+                        <img src="./media/logos/Recurso_14.svg" alt="logo"
+                            class="logo-img">
+                    </figure>
+                </div>
+            </footer>
+            <div class="publicidad pub--white">
+                <p>© IMPACTA. 2024</p>
+            </div>
+            <!-- final del footer -->
         </main>
         <!-- font awesome -->
         <script src="https://kit.fontawesome.com/22e2075a20.js"
@@ -340,6 +436,8 @@
         <!-- swiper js -->
         <script type="text/javascript"
             src="./node_modules/swiper/swiper-bundle.min.js"></script>
+        <!-- aos js -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <!-- JS Nativo -->
         <script type="text/javascript" src="./js/main.js"></script>
     </body>
