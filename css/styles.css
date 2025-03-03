@@ -168,15 +168,15 @@ body {
   bottom: 12px;
 }
 
-.checkbox:checked ~ .linea--primera {
+.checkbox:checked ~ .header-menu .linea--primera {
   transform: translateY(9px) rotate(38deg);
 }
 
-.checkbox:checked ~ .linea--segunda {
+.checkbox:checked ~ .header-menu .linea--segunda {
   display: none;
 }
 
-.checkbox:checked ~ .linea--tercera {
+.checkbox:checked ~ .header-menu .linea--tercera {
   transform: translateY(-9px) rotate(-38deg);
 }
 
